@@ -138,6 +138,7 @@ celerybeat.pid
 .env
 .envrc
 .venv
+.venv/
 env/
 venv/
 ENV/
@@ -208,7 +209,10 @@ __marimo__/
 
 # Vector databases / local storage
 chroma_db/
+chroma_langchain_db/
 *.sqlite3
 
 # Ollama / local artifacts (if any)
 models/
+
+.DS_Store
