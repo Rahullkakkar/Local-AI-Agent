@@ -18,10 +18,10 @@ This version (**v0.1**) focuses on validating the core RAG workflow and runs as 
    ```bash
    python main.py
 
-Notes
-	•	This version runs as a standalone script
-	•	Documents are loaded at startup
-	•	Future versions will introduce an API and interactive interface
+## Notes
+    This version runs as a standalone script
+	Documents are loaded at startup
+	Future versions will introduce an API and interactive interface
 
 Tech stack
 	•	Python
