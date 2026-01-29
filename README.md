@@ -15,4 +15,16 @@ This version (**v0.1**) focuses on validating the core RAG workflow and runs as 
    pip install -r requirements.txt
 
 2. Run the prototype
+   ```bash
    python main.py
+
+Notes
+	•	This version runs as a standalone script
+	•	Documents are loaded at startup
+	•	Future versions will introduce an API and interactive interface
+
+Tech stack
+	•	Python
+	•	LangChain (retrieval and orchestration)
+	•	Chroma (vector storage)
+	•	Ollama (local LLM runtime)
