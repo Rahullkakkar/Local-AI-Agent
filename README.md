@@ -19,12 +19,12 @@ This version (**v0.1**) focuses on validating the core RAG workflow and runs as 
    python main.py
 
 ## Notes
-    This version runs as a standalone script
-	Documents are loaded at startup
-	Future versions will introduce an API and interactive interface
+1. This version runs as a standalone script
+2. Documents are loaded at startup
+3. Future versions will introduce an API and interactive interface
 
-Tech stack
-	•	Python
-	•	LangChain (retrieval and orchestration)
-	•	Chroma (vector storage)
-	•	Ollama (local LLM runtime)
+## Tech Stack 
+1. Python
+2. LangChain (retrieval and orchestration)
+3. Chroma (vector storage)
+4. Ollama (local LLM runtime)
